@@ -172,4 +172,4 @@ def bucket_record_process(blob_refe,bq_refe,ds_nm,ds_tbl_nm,project_nm,inv_dt):
                 bucket = storage_client.get_bucket(bucket_nm)
                 blob = bucket.blob(blob_nm)
                 DS_TABLE = DS_NAME+'.Buckets'
-                bucket_record_process(blob,bq_client,DS_NAME,DS_TABLE,inv_project,inv_dt
+                bucket_record_process(blob,bq_client,DS_NAME,DS_TABLE,inv_project,inv_dt)
